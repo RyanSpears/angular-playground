@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="MainApp">
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
-</head>
-<body>
+    <!-- Library Scripts -->
+    <script src="node_modules/angular/angular.js"></script>
 
+    <!-- Application Script -->
+    <script src="app.js"></script>
+</head>
+<body ng-controller="MainCtrl as vm">
+    <h2>{{vm.title}}</h2>
 </body>
 </html>
