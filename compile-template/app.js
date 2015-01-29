@@ -2,12 +2,12 @@
  * Created by Ryan on 30/01/2015.
  */
 angular.module('website', [])
-    .controller('MainCtrl', ['$scope', 'ComileService', function ($scope, ComileService) {
+    .controller('MainCtrl', ['$scope', 'CompileService', function ($scope, CompileService) {
         var vm = this;
 
        return vm;
     }])
-    .factory('ComileService', function () {
+    .factory('CompileService', function () {
 
         function compile(scope) {
 
